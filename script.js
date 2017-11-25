@@ -7,29 +7,25 @@ window.onload = function () {
     }
     //My variable
     var Vash = document.querySelector('img[alt="Vash"]');
-    var vashDescription = "Vash the Stampede ou le typhon humanoïde est considéré comme une catastrophe naturelle au même titre qu'un séisme";
     var Merly = document.querySelector('img[alt="Merly"');
-    var merlyDescription = "Merly Stryfe travail pour la compagnie d'assurance Bernardeli qui est chargée de surveiller Vash";
     var Wolfwood = document.querySelector('img[alt="Wolfwood"]');
-    var wolfwoodDescription = "Nicholas D. Wolfwood, le compagnon de Vash??";
     var Millie = document.querySelector('img[alt="Millie"]');
-    var millieDescription = "Milly Thompson est l'assistante de Millie, elle est plus grand et plus forte que la plupart des hommes";
     var btnHideDescription = document.querySelector('.hideDescription');
     var btnShowOnlyWoman = document.querySelector('button.woman');
     var btnShowOnlyMan = document.querySelector('button.man');
     var btnShowAllHeroes = document.querySelector('button.allHeroes');
     //My Js
     Vash.onclick = function () {
-        displayDescription(vashDescription);
+        displayDescription("Vash the Stampede ou le typhon humanoïde est considéré comme une catastrophe naturelle au même titre qu'un séisme");
     };
     Merly.onclick = function () {
-        displayDescription(merlyDescription);
+        displayDescription("Merly Stryfe travail pour la compagnie d'assurance Bernardeli qui est chargée de surveiller Vash");
     };
     Wolfwood.onclick = function () {
-        displayDescription(wolfwoodDescription);
+        displayDescription("Nicholas D. Wolfwood, le compagnon de Vash??");
     };
     Millie.onclick = function () {
-        displayDescription(millieDescription);
+        displayDescription("Milly Thompson est l'assistante de Millie, elle est plus grand et plus forte que la plupart des hommes");
     };
     btnHideDescription.onclick = function () {
         document.querySelector('div.description').classList.add('hide');
