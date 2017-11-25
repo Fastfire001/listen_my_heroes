@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+img{
+    width: 15vw;
+    height: 40vh;
+}
+
+img.man{
+    border: 5px dotted #00AEFF;
+}
+
+img.woman{
+    border: 5px dotted #FF69B4;
+}
+
+div.myHeroes{
+    text-align: center;
+    margin-top: 30px;
+}
+
+div.myButtons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+button.woman{
+    background-color: #FF69B4;
+}
+
+button.man{
+    background-color: #00AEFF;
+}
+
+button.allHeroes{
+    background-color: #13B25F;
+}
+
+div.description{
+    margin-top: 30px;
+    border: dashed;
+    text-align: center;
+    /*METTRE LE TEXTE EN VERS*/
+}
+
+p.description{
+    color: green;
+}
+
+.block{
+    display: block;
+}
+
+.hide{
+    visibility: hidden;
+}
+
