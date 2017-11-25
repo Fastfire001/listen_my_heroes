@@ -48,4 +48,4 @@ window.onload = function () {
         Merly.classList.remove('hide');
         Millie.classList.remove('hide');
     };
-};
+};  //48 line without comment

@@ -15,12 +15,12 @@ img.woman{
 
 div.myHeroes{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 div.myButtons{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 button.woman{
@@ -39,7 +39,6 @@ div.description{
     margin-top: 30px;
     border: dashed;
     text-align: center;
-    /*METTRE LE TEXTE EN VERS*/
 }
 
 p.description{
@@ -49,4 +48,3 @@ p.description{
 .hide{
     visibility: hidden;
 }
-
